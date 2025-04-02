@@ -6,7 +6,7 @@ const ButtonColorChanger = () => {
     return(
         <div className="maindiv" style={{backgroundColor: bgColor, height: "100vh"}}>
             <div className="secdiv">
-
+                <button onClick={() =>setBgColor ("black")}>Black Background</button>
             </div>
         </div>
     )
