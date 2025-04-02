@@ -5,6 +5,7 @@ const ButtonColorChanger = () => {
     const[bgColor, setBgColor] = useState("white")
     return(
         <div className="maindiv" style={{backgroundColor: bgColor, height: "100vh"}}>
+            <h1>Background Color Changer</h1>
             <div className="secdiv">
                 <button className="button" onClick={() =>setBgColor ("black")}>Black Background</button>
                 <button className="button" onClick={() =>setBgColor ("white")}>White Background</button>
