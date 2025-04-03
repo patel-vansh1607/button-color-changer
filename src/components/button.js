@@ -1,8 +1,13 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import "../styles/button.css"
 
 const ButtonColorChanger = () => {
-    const[bgColor, setBgColor] = useState("white")
+    const[bgColor, setBgColor] = useState(localStorage.getItem("bgcolor"))
+
+    useEffect (() => {
+        localStorage.setItem("bgcolor", bgColor)
+    }, {bgColor})
+
     return(
         <div className="maindiv" style={{backgroundColor: bgColor, height: "100vh"}}>
             <h1>Background Color Changer</h1>
