@@ -1,4 +1,4 @@
-[![Project Banner](./src//images/readme-project-banner-01.png)](https://button-color-changer.vercel.app/)
+[![Project Banner](./src//images/readme-project-banner-01.png)](https://button-color-changerr.vercel.app/)
 ---
 # 🚀 **Counter Display App**  
 > _A website where a there are diffrent buttons which have diffrent background colors set, once a button is clicked the bgcolor changes according to the label. Try it out and have then fun_
