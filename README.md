@@ -37,7 +37,7 @@
 ---
 
 ## 📸 **Screenshots**
-![Preview](./src/images/project-demo.gif)
+![Preview](./src/images/project-gif.gif)
 
 ---
 
